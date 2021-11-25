@@ -1,0 +1,19 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "main": "prettier.config.js",
+    "scripts": {
+        "dev": "nodemon --inspect dist/index.js",
+        "build": "tsc",
+        "watch": "tsc -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^16.11.10",
+        "nodemon": "^2.0.15",
+        "typescript": "^4.5.2"
+    }
+}
